@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SyeTV</string>
+    <string name="add_media">Add Media</string>
+    <string name="url_hint">Paste URL — Drive, direct link, stream…</string>
+    <string name="title_hint">Title (optional)</string>
+    <string name="cancel">Cancel</string>
+    <string name="add">Add</string>
+    <string name="remove">Remove</string>
+    <string name="no_media">No media yet.\nPress Add to paste a link.</string>
+    <string name="google_drive">Google Drive</string>
+    <string name="quality">Quality</string>
+    <string name="auto_quality">Auto</string>
+</resources>
