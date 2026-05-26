@@ -62,10 +62,10 @@ class MainActivity : AppCompatActivity() {
             .setView(view)
             .create()
 
-        btnConfirm@ btnAdd.setOnClickListener {
+        btnAdd.setOnClickListener {
             val url = etUrl.text.toString().trim()
-            if (url.isEmpty()) return@btnConfirm
-
+            if (url.isEmpty()) return@setOnClickListener
+            
             val rawTitle = etTitle.text.toString().trim()
             val title = rawTitle.ifEmpty {
                 when {
